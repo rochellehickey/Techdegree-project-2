@@ -1,5 +1,23 @@
 body {
   font-family: 'Roboto', sans-serif;
+  color: #565050;
+}
+
+h2 {
+  text-transform: uppercase;
+}
+
+.about-text,
+.contact-blurb {
+  font-size: 1.2rem;
+}
+
+.portfolio {
+  text-align: center;
+}
+
+.contact {
+  text-align: center;
 }
 
 /* ------ MEDIA QUERIES ------ */
