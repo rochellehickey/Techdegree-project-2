@@ -120,6 +120,10 @@ img {
   text-align: left;
 }
 
+.experience li {
+  padding-bottom: 5px;
+}
+
 .footer .container{
   border-top: 2px solid #0f6586;
   padding-top: 20px;
@@ -138,10 +142,14 @@ img {
 }
 
 .footer-name {
+  font-family: 'Sacramento', cursive;
+  font-size: 1.3rem;
+  margin-top: 15px;
   float: left;
 }
 
 .footer-link {
+  font-size: .8rem;
   float: right;
 }
 
