@@ -122,10 +122,12 @@ img {
 
 .footer .container{
   border-top: 2px solid #0f6586;
+  padding-top: 20px;
+  padding-bottom: 50px;
 }
 
 .footer a {
-  color: #4a4a4a;
+  color: #aa85a9;
   text-decoration: none;
   font-weight: bold;
 }
@@ -133,6 +135,20 @@ img {
 .footer li {
   text-transform: uppercase;
   display: inline;
+}
+
+.footer-name {
+  float: left;
+}
+
+.footer-link {
+  float: right;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 
