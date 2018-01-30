@@ -1,24 +1,75 @@
 body {
-  font-family: 'Roboto', sans-serif;
-  color: #565050;
+  font-family: 'Open Sans', sans-serif;
+  color: #7f7f7f;
+  background: #fafafa;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1,
+h2,
+h3 {
+  color: #4a4a4a;
 }
 
 h2 {
   text-transform: uppercase;
+  padding: 50px 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.about {
+  margin: 50px 0;
 }
 
 .about-text,
 .contact-blurb {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 }
 
 .portfolio {
   text-align: center;
+  background: #fff;
 }
 
 .contact {
   text-align: center;
 }
+
+.global-nav ul {
+  padding-left: 0;
+}
+
+.global-nav li {
+  background: #fff;
+  padding: 10px 0;
+  margin-bottom: 5px;
+  margin-left: 0;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
+  display: block;
+}
+
+.global-nav a {
+  color: #4a4a4a;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.profile-image {
+  width: 75%;
+}
+
 
 /* ------ MEDIA QUERIES ------ */
 
