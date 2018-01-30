@@ -18,6 +18,11 @@ h2 {
   padding: 50px 0;
 }
 
+p {
+  font-size: 1.1rem;
+  line-height: 1.7rem;
+}
+
 img {
   max-width: 100%;
 }
@@ -34,11 +39,16 @@ img {
 .about-text,
 .contact-blurb {
   font-size: 1.4rem;
+  line-height: 2rem;
 }
 
 .portfolio {
   text-align: center;
   background: #fff;
+}
+
+.portfolio-container {
+  padding-bottom: 30px;
 }
 
 .contact {
