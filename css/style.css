@@ -45,6 +45,7 @@ img {
 .portfolio {
   text-align: center;
   background: #fff;
+  padding-bottom: 20px;
 }
 
 .portfolio-container {
@@ -53,6 +54,7 @@ img {
 
 .contact {
   text-align: center;
+  padding-bottom: 60px;
 }
 
 .global-nav ul {
@@ -78,6 +80,21 @@ img {
 
 .profile-image {
   width: 75%;
+}
+
+.footer .container{
+  border-top: 2px solid #efefef;
+}
+
+.footer a {
+  color: #4a4a4a;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footer li {
+  text-transform: uppercase;
+  display: inline;
 }
 
 
