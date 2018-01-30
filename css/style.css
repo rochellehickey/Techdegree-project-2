@@ -1,7 +1,7 @@
 body {
   font-family: 'Open Sans', sans-serif;
   color: #7f7f7f;
-  background: #fafafa;
+  background: #cfecce;
   width: 100%;
   margin: 0 auto;
   text-align: center;
@@ -10,7 +10,7 @@ body {
 h1,
 h2,
 h3 {
-  color: #4a4a4a;
+  color: #0f6586;
 }
 
 h1 {
@@ -93,9 +93,17 @@ img {
 }
 
 .global-nav a {
-  color: #4a4a4a;
+  color: #aa85a9;
   text-decoration: none;
   font-weight: bold;
+}
+
+.global-nav li:active {
+  background: #aa85a9;
+}
+
+.global-nav a:active {
+  color: #fff;
 }
 
 .profile-image {
@@ -103,7 +111,7 @@ img {
 }
 
 .footer .container{
-  border-top: 2px solid #efefef;
+  border-top: 2px solid #0f6586;
 }
 
 .footer a {
