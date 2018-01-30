@@ -110,6 +110,16 @@ img {
   width: 75%;
 }
 
+.experience {
+  background: rgba(121, 188, 178, .3);
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.experience ul {
+  text-align: left;
+}
+
 .footer .container{
   border-top: 2px solid #0f6586;
 }
