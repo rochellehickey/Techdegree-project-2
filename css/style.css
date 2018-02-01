@@ -127,8 +127,7 @@ img {
 .footer .container{
   border-top: 2px solid #0f6586;
   padding-top: 20px;
-  padding-bottom: 50px;
-}
+  }
 
 .footer a {
   color: #aa85a9;
@@ -163,7 +162,48 @@ img {
 /* ------ MEDIA QUERIES ------ */
 
 @media (min-width: 768px) {
+  .global-nav ul {
+    display: inline-block;
+    min-width: 120px;
+  }
 
+  .profile-image {
+    width: 40%;
+    float: right;
+  }
+
+  .about .about-text {
+    width: 60%;
+    margin: 0 auto;
+    text-align: left;
+    float: left;
+  }
+
+  .portfolio-container {
+    width: 49%;
+    margin-left: 5px;
+    float: left;
+  }
+
+  .portfolio-blurbs {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .experience .about-text {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .job-description {
+    width: 75%;
+    margin: 0 auto;
+  }
+
+  .contact-blurb {
+    width: 90%;
+    margin: 0 auto;
+  }
 }
 
 @media (min-width: 1024px) {
