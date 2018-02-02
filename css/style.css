@@ -162,9 +162,11 @@ img {
 /* ------ MEDIA QUERIES ------ */
 
 @media (min-width: 768px) {
-  .global-nav ul {
+  .global-nav li {
     display: inline-block;
-    min-width: 120px;
+    width: auto;
+    padding: 0 20px;
+    background: none;
   }
 
   .profile-image {
