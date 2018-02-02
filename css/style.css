@@ -14,7 +14,7 @@ h3 {
 }
 
 h1 {
-  font-family: 'Sacramento', cursive;
+  font-family: 'Poiret One', cursive;
   font-size: 3rem;
 }
 
@@ -49,9 +49,9 @@ img {
 
 .about-text,
 .contact-blurb {
-  font-family: 'Sacramento', cursive;
-  font-size: 1.8rem;
-  line-height: 2.4rem;
+  font-family: 'Poiret One', cursive;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
 }
 
 .contact-information {
