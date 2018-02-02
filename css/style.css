@@ -116,6 +116,7 @@ img {
   padding-bottom: 50px;
 }
 
+.job-experience,
 .experience ul {
   text-align: left;
 }
@@ -212,7 +213,6 @@ img {
   .experience .job-experience {
     width: 90%;
     margin: 0 auto;
-    text-align: left;
   }
 
   .contact-blurb {
@@ -255,6 +255,11 @@ img {
     width: 55%;
   }
 
+  .portfolio {
+    width: 96%;
+    margin: 0 auto 20px;
+  }
+
   .portfolio-container {
     width: 30%;
     margin-left: 2%;
@@ -262,6 +267,11 @@ img {
 
   .portfolio-blurbs {
     width: 90%;
+  }
+
+  .job-experience {
+    border-left: 3px solid #cfecce;
+    padding-left: 20px;
   }
 
   .experience .about-text,
