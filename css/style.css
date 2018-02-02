@@ -176,6 +176,14 @@ img {
     background: none;
   }
 
+  .global-nav li:active {
+  background: none;
+}
+
+.global-nav a:active {
+  color: #fff;
+}
+
   .profile-image {
     width: 38%;
     margin-left: 2%;
@@ -230,5 +238,25 @@ img {
 }
 
 @media (min-width: 1024px) {
+  .main-name {
+    float: left;
+  }
 
+  .global-nav a {
+    text-align: right;
+  }
+
+  .global-nav li {
+    float: right;
+    padding-top: 60px;
+  }
 }
+
+
+
+
+
+
+
+
+
