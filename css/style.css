@@ -231,6 +231,10 @@ img {
   .footer-link .back-to-top-link {
     display: none;
   }
+
+  .footer-link li:nth-last-child(1) {
+    padding-right: 0;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -247,15 +251,24 @@ img {
     padding-right: 0;
   }
 
+  .about .about-text {
+    width: 55%;
+  }
+
   .portfolio-container {
     width: 30%;
     margin-left: 2%;
   }
 
   .portfolio-blurbs {
-    width: 80%;
-    margin: 0 auto;
+    width: 90%;
   }
+
+  .experience .about-text,
+  .contact-blurb {
+    width: 60%;
+  }
+
 }
 
 
