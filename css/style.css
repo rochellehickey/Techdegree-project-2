@@ -135,21 +135,28 @@ img {
   font-weight: bold;
 }
 
-.footer li {
+.footer-link {
+  font-size: .8rem;
+  float: right;
+}
+
+.footer-link li {
   text-transform: uppercase;
   display: inline;
 }
 
 .footer-name {
-  font-family: 'Sacramento', cursive;
+  font-family: 'Poiret One', cursive;
   font-size: 1.3rem;
   margin-top: 15px;
   float: left;
 }
 
-.footer-link {
-  font-size: .8rem;
-  float: right;
+.footer-link .home-link,
+.footer-link .portfolio-link,
+.footer-link .experience-link,
+.footer-link .contact-link {
+  display: none;
 }
 
 .clearfix:after {
@@ -170,7 +177,8 @@ img {
   }
 
   .profile-image {
-    width: 40%;
+    width: 38%;
+    margin-left: 2%;
     float: right;
   }
 
@@ -182,8 +190,8 @@ img {
   }
 
   .portfolio-container {
-    width: 49%;
-    margin-left: 5px;
+    width: 48%;
+    margin-left: 2%;
     float: left;
   }
 
@@ -197,14 +205,27 @@ img {
     margin: 0 auto;
   }
 
-  .job-description {
-    width: 75%;
+  .experience .job-experience {
+    width: 90%;
     margin: 0 auto;
+    text-align: left;
   }
 
   .contact-blurb {
     width: 90%;
     margin: 0 auto;
+  }
+
+  .footer-link .home-link,
+  .footer-link .portfolio-link,
+  .footer-link .experience-link,
+  .footer-link .contact-link {
+    display: inline-block;
+    padding: 0 20px;
+  }
+
+  .footer-link .back-to-top-link {
+    display: none;
   }
 }
 
