@@ -178,11 +178,7 @@ img {
 
   .global-nav li:active {
   background: none;
-}
-
-.global-nav a:active {
-  color: #fff;
-}
+  }
 
   .profile-image {
     width: 38%;
@@ -242,13 +238,23 @@ img {
     float: left;
   }
 
-  .global-nav a {
-    text-align: right;
+  .global-nav nav {
+    float: right;
+    padding-top: 50px;
   }
 
-  .global-nav li {
-    float: right;
-    padding-top: 60px;
+  .global-nav li:nth-last-child(1) {
+    padding-right: 0;
+  }
+
+  .portfolio-container {
+    width: 30%;
+    margin-left: 2%;
+  }
+
+  .portfolio-blurbs {
+    width: 80%;
+    margin: 0 auto;
   }
 }
 
